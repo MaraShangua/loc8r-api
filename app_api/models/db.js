@@ -4,7 +4,7 @@ mongoose.set("strictQuery", false);
 
 // const dbURI = 'mongodb://localhost/Loc8r';
 const dbPassword = process.env.MONGODB_PASSWORD;
-const dbURI = `mongodb+srv://my_atlas_user:${dbPassword}@cluster0.s0fko.mongodb.net/Loc8r`;
+const dbURI = `mongodb+srv://my_atlas_user:${dbPassword}@cluster0.f40vg.mongodb.net/Loc8r`;
 
 const connect = () => {
   setTimeout(() => mongoose.connect(dbURI), 1000);
